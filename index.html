@@ -59,6 +59,13 @@
 
     <link rel="preload" as="font" type="font/woff2" href="/fonts/edo.woff2" crossorigin />
     <link rel="preload" as="image" href="/public/images/logo-w.svg" />
+    <link rel="preload" as="image" href="/public/images/bg.webp" media="(min-width: 768px)" />
+    <link
+      rel="preload"
+      as="image"
+      href="/public/images/bg-mobile.webp"
+      media="(max-width: 767px)"
+    />
 
     <!-- JSON-LD -->
     <script type="application/ld+json">
@@ -238,8 +245,9 @@
           class="hero-spray"
           src="/public/images/spray-hero.png"
           alt=""
-          width="269"
-          height="269"
+          width="330"
+          height="443"
+          fetchpriority="high"
         />
         <div class="hero-left">
           <time class="hero-date" datetime="2022-05-28">28.05.2022</time>
@@ -429,7 +437,7 @@
           src="/public/images/spray-benefits.png"
           alt=""
           width="269"
-          height="269"
+          height="260"
         />
         <!-- Left Side - Sticky  -->
         <div class="container benefits">
