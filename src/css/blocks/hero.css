@@ -10,6 +10,14 @@
   padding: 70px 0;
 }
 
+.hero-spray {
+  position: absolute;
+  top: 30%;
+  left: -5%;
+  width: 269px;
+  height: 269px;
+}
+
 .hero-left {
   max-width: 490px;
   padding: 108px 0;
