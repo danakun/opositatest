@@ -2,6 +2,9 @@
 
 A production-ready landing page built for the OpositaTest technical test. The brief asked for modern layout techniques, vanilla JavaScript interactivity, and responsiveness as a plus. This implementation goes further: it treats the page as a real production asset, with full accessibility compliance, SEO optimisation, performance best practices, and a scalable CSS architecture.
 
+
+- [Live Demo](https://opositatest.vercel.app/)
+
 ---
 
 ## Project Structure
