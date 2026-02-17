@@ -59,7 +59,7 @@
 
 .benefits__item {
   background: var(--color-white);
-  padding: var(--spacing-lg);
+  padding: var(--spacing-lg) 2.7rem;
   max-width: 376px;
   border-radius: var(--corner-radius);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);

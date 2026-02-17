@@ -1,24 +1,24 @@
 .hero {
   display: flex;
   justify-content: center;
-  gap: var(--spacing-xl);
+  gap: var(--spacing-2xl);
   align-items: start;
   background-image: url('../../../public/images/bg.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding: 76px 0;
+  padding: 70px 0;
 }
 
 .hero-left {
   max-width: 490px;
-  padding: 100px 0;
+  padding: 108px 0;
 }
 
 .cta-banner__text {
   color: var(--color-text-inverted);
   font-size: var(--text-2xl);
-  padding-top: 2.5rem;
+  padding-top: 2.6rem;
 }
 
 .cta-banner__link {
@@ -40,7 +40,7 @@
   font-size: var(--text-6xl);
   line-height: var(--leading-none);
   color: var(--color-primary);
-  margin: var(--spacing-lg) 0 46px;
+  margin: var(--spacing-lg) 0 42px;
 }
 
 .hero-date {
@@ -53,7 +53,7 @@
 
 .hero-subtitle {
   font-size: var(--text-2xl);
-  line-height: var(--leading-loose);
+  line-height: 33px;
   color: var(--color-text-inverted);
 }
 
@@ -84,7 +84,7 @@
 .hero-right__btn {
   max-width: 378px;
   padding: var(--spacing-sm) var(--spacing-3xl);
-  margin: 0 0 0 var(--spacing-2xl);
+  margin: var(--spacing-xs) 0 0 var(--spacing-2xl);
   z-index: 2;
 
   position: absolute;
