@@ -160,8 +160,7 @@ Responsive design was not required by the brief but was implemented as a plus ac
 - `900px` — features grid switches to 2 columns
 - `768px` — benefits layout stacks, navbar menu hidden
 - `600px` — features grid becomes single column
-- `767px` — hero stacks vertically, mobile background image swapped in
-
+  
 ---
 
 ## Next Steps — Twig Integration
