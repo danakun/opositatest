@@ -146,7 +146,6 @@ Features implemented:
 - **Dropdown menu** — the avatar button toggles a dropdown with full keyboard support: `Escape` closes it and returns focus to the trigger button, clicking outside closes it, and `aria-expanded` is kept in sync for screen readers
 - **YouTube lazy embed** — clicking the play button creates and injects the iframe dynamically with `youtube-nocookie.com` for privacy, autoplay enabled, and `allowfullscreen` set via `setAttribute`
 - **Scroll animations** — `IntersectionObserver` adds an `is-visible` class to feature cards as they enter the viewport, triggering a staggered fade-in animation with CSS `transition-delay`
-- **Lazy YouTube preconnect** — `IntersectionObserver` on the video section injects preconnect link tags into `<head>` only when the section is visible
 
 ---
 
