@@ -23,7 +23,6 @@
   --color-dark-60: #88868d;
   --color-dark-80: #605e67;
   --color-dark-100: #383641;
-  --color-black: #000000;
 
   /* Primary/Brand */
   --color-primary: #ffb142;
@@ -107,7 +106,7 @@ body {
 
 .container {
   max-width: var(--main-container-width);
-  margin: 0 auto;
+  margin-inline: auto;
   padding-left: var(--spacing-md);
   padding-right: var(--spacing-md);
 }

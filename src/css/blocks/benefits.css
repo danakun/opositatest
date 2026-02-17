@@ -41,7 +41,6 @@
 
 .benefits__description {
   color: var(--color-dark-60);
-  line-height: var(--leading-normal);
   margin-bottom: 2rem;
 }
 
