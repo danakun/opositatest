@@ -22,7 +22,7 @@
 
 .benefits__sticky {
   position: sticky;
-  top: var(--spacing-lg);
+  top: var(--spacing-3xl);
   height: fit-content;
   max-width: 414px;
   justify-self: center;
@@ -108,5 +108,6 @@
   .spray {
     width: 169px;
     height: 169px;
+    top: 200px;
   }
 }
