@@ -125,10 +125,11 @@
   font-size: var(--text-4xl);
   line-height: var(--leading-tight);
   letter-spacing: var(--tracking-loose);
-  text-align: center;
+  text-align: left;
   z-index: 2;
   margin: 0;
   width: 100%;
+  padding-left: var(--spacing-2xl);
 }
 
 .hero-right__btn-container .hero-right__btn {
